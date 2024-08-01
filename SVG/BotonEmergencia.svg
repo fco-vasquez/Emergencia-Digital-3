@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="16.145454"
+   height="16.581818"
+   viewBox="0 0 16.145454 16.581818"
+   sodipodi:docname="BotonEmergencia.svg"
+   inkscape:version="1.3.1 (91b66b0783, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="34.669168"
+     inkscape:cx="11.263611"
+     inkscape:cy="7.485037"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Vector"
+     style="display:inline">
+    <path
+       style="fill:#e60003;fill-opacity:1;stroke:none;stroke-width:0.00407917;stroke-opacity:0"
+       d="m 0.47420327,16.627721 -0.58638039,-0.0057 -4.47e-6,-3.196735 c -2.45e-6,-1.758205 -0.006117,-5.5170875 -0.0135872,-8.3530733 l -0.0135827,-5.15633783 8.17022589,0.0063884 c 4.4936236,0.0035136 8.1743556,0.01097741 8.1794026,0.01658626 0.005,0.0056089 0.0156,3.76634667 0.02344,8.35719537 l 0.01426,8.3469971 -7.5937007,-0.0048 c -4.1765353,-0.0026 -7.85757176,-0.0074 -8.18008098,-0.01051 z"
+       id="path2" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-opacity:1"
+       d="m 1.774438,2.1211673 12.523046,-0.020396 0.02039,12.2986917 -12.543441,0.04079 z"
+       id="path3"
+       sodipodi:nodetypes="ccccc" />
+    <ellipse
+       style="display:inline;fill:#e30005;fill-opacity:1;stroke:#ffffff;stroke-width:0.206364;stroke-opacity:1"
+       id="path6"
+       cx="8.1051846"
+       cy="8.2638273"
+       rx="5.9386973"
+       ry="6.0540733" />
+    <ellipse
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.2;stroke-opacity:1"
+       id="path4"
+       cx="8.0716543"
+       cy="8.114645"
+       rx="1.5551827"
+       ry="1.4379067" />
+  </g>
+</svg>

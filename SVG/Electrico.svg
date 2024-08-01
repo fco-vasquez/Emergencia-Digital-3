@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="60.805523"
+   height="66.087288"
+   viewBox="0 0 60.805522 66.087288"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Electrico.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="5.4931721"
+     inkscape:cx="24.484942"
+     inkscape:cy="27.03356"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <g
+     clip-path="url(#clip0_18_4062)"
+     id="g3"
+     transform="translate(-0.36408835,0.54613253)">
+    <path
+       d="M 60.4313,50.5219 32.1288,1.49606 C 31.8396,0.997423 31.311,0.698242 30.7426,0.698242 c -0.5685,0 -1.097,0.309158 -1.3862,0.797818 L 1.05382,50.5219 c -0.289208,0.4986 -0.289208,1.1069 0,1.5956 0.28921,0.4986 0.81776,0.7978 1.38621,0.7978 H 59.0451 c 0.5684,0 1.097,-0.3091 1.3862,-0.7978 0.2892,-0.4986 0.2892,-1.107 0,-1.5956 z"
+       fill="#000000"
+       id="path1" />
+    <path
+       d="M 56.2839,49.7159 H 5.22363 L 30.7538,5.6875 Z"
+       fill="#f6bd16"
+       id="path2" />
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 29.8039,17.5117 -5.0373,17.1471 7.3677,-3.799 -1.5764,11.5407 -1.5062,-2.1999 1.1608,7.2366 4.2242,-6.1014 -2.1393,1.3302 4.4417,-16.3534 -7.9433,4.3746 5.8136,-13.1813 z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-width="0.10454"
+       id="path3" />
+  </g>
+  <defs
+     id="defs3">
+    <clipPath
+       id="clip0_18_4062">
+      <rect
+         width="59.836201"
+         height="52.356701"
+         fill="#ffffff"
+         transform="translate(0.835938,0.697266)"
+         id="rect3"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-size:9.80151px;line-height:8.33514px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:2.00855;stroke-miterlimit:3.6;stroke-dasharray:8.03418, 2.00855"
+     x="4.731977"
+     y="49.947823"
+     id="text3"
+     transform="scale(0.78619684,1.2719461)"><tspan
+       sodipodi:role="line"
+       id="tspan3"
+       x="4.731977"
+       y="49.947823"
+       style="stroke-width:2.00855">Riesgo Eléctrico</tspan><tspan
+       sodipodi:role="line"
+       x="4.731977"
+       y="58.282963"
+       id="tspan4"
+       style="stroke-width:2.00855" /></text>
+</svg>
