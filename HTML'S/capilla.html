@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maitenes Emergencia Digital</title>
-    <!--Bootstrap-->
-    <link href="CSS/bootstrap.min.css" rel="stylesheet">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Emergencia Digita | Capilla</title>
+    <script src="https://kit.fontawesome.com/bd9ee403ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <div class="container text-center">
-        <div class="row">
+    <div class="head">
+        <img src="/SVG/logo.png" alt="">
+        <h1>Emergencia Digital - Concepcion</h1>
+    </div>
 
-            <div class="col-4 back">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="col-8 back">
-                <h1 class="text-end">Emergencia Digital</h1>
-            </div>
-            
-            <nav class="navbar bg-body-tertiary">
-                <form class="container-fluid justify-content-center ">
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='index.html'"><img src="Planos/Casita.svg" alt="home"></button>
-                  <button class="btn btn-outline-success me-4 active btn-succes" type="button" onclick="window.location.href='capilla.html'" >Capilla</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CapillaPiso1.html'">Piso 1</button>
-                </form>
-            </nav>
+    <div class="na">
+        <nav class="navbar">
+            <ul class="items">
+                <li class="navitems">
+                    <a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="navitems">
+                    <a class='link activate' href="./capilla.html">Capilla</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CapillaPiso1.html">Piso 1</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="container">
+        <img src="/Planos/Capilla.svg" alt="">
+    </div>
 
-            <div>
-                <img class="img-fluid" src="Planos/Capilla.svg" alt="" style="margin: auto;">
-            </div>
-    </div> <!--Container-->
+    <footer>
+        Design and Developed by @Francisco Vasquez & Benjamin Cocio
+    </footer>
 </body>
 </html>
