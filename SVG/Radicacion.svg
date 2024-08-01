@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="71.184364"
-   height="69.259247"
-   viewBox="0 0 71.184364 69.259247"
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
    fill="none"
    version="1.1"
    id="svg3"
    sodipodi:docname="Radicacion.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,18 +22,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="5.5968169"
-     inkscape:cx="15.812559"
-     inkscape:cy="56.013982"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg3" />
+     inkscape:cx="13.75782"
+     inkscape:cy="59.766115"
+     inkscape:window-width="1680"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3"
+     showgrid="false" />
   <g
      clip-path="url(#clip0_18_4071)"
      id="g3"
-     transform="translate(3.9308057,0.17867299)">
+     transform="matrix(0.76603258,0,0,0.76603258,1.2296917,3.4971944e-8)">
     <path
        d="M 60.2682,49.8236 31.9657,0.797816 C 31.6765,0.299181 31.1479,0 30.5795,0 30.011,0 29.4825,0.309154 29.1933,0.797816 L 0.890734,49.8236 c -0.289208,0.4987 -0.289208,1.107 0,1.5957 0.289206,0.4986 0.817766,0.7978 1.386206,0.7978 H 58.882 c 0.5685,0 1.097,-0.3092 1.3862,-0.7978 0.2892,-0.4987 0.2892,-1.107 0,-1.5957 z"
        fill="#000000"
@@ -70,9 +71,9 @@
   <text
      xml:space="preserve"
      id="text3"
-     style="font-size:5.75499px;line-height:4.89401px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#000000;stroke-width:1.3115;stroke-miterlimit:3.6;stroke-dasharray:5.246, 1.3115"
-     transform="matrix(1.3280097,0,0,2.492356,-4.5105182,-78.696268)"><tspan
+     style="font-size:5.75499px;line-height:4.89401px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#ffffff;stroke-width:1.3115;stroke-miterlimit:3.6;stroke-dasharray:5.246, 1.3115;fill-opacity:1"
+     transform="matrix(0.95657969,0,0,1.7952708,-4.0240575,-55.451453)"><tspan
        x="3.7519531"
        y="57.457797"
-       id="tspan2">Peligro de Radiacion</tspan></text>
+       id="tspan1">Peligro de Radiacion</tspan></text>
 </svg>
