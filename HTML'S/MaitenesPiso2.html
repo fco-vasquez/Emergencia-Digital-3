@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>PISO 2 EMERGENCIA DIGITAL</title>
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-4 back">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="col-8 back">
+                <h1 class="text-end">Emergencia Digital</h1>
+            </div>
+
+        <div class="row align-items-center">
+            <nav class="navbar bg-body-tertiary">
+                <form class="container-fluid justify-content-center ">
+                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='index.html'"><img src="Planos/Casita.svg" alt="home"></button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='maitenes.html'" >Maitene</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='MaitenesPiso1.html'">Piso 1</button>
+                  <button class="btn btn-outline-success me-4 active btn-succes"  type="button" onclick="window.location.href='MaitenesPiso2.html'" >Piso 2</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='MaitenesPiso3.html'">Piso 3</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='MaitenesPiso4.html'" >Piso 4</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='MaitenesPiso2Bodega.html'" >Bodega Ciencias Basicas</button>
+                </form>
+            </nav>
+
+            <div class="svg-container">
+                <!-- SVG PRINCILAP MAPA PRINCIPAL-->
+                <img id="floorPlan" class="img-fluid" src="Planos/Piso 2 Maitenes.svg" alt="" style="margin: auto; z-index: 1;">
+                <!--OVERLAY-->
+                <img id="overlaySvg" class="overlay-svg" src="" alt="">
+            </div>
+
+            <div class="col" style="background-color: aqua;">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value='Piso 2 TODO.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox1">Todos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value='Piso 2 red humeda.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Red humeda.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value='Piso 2 red electrica.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Electrico.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value='Piso 2 extintorPQ.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value='Piso 2 extintorCO2.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor CO2.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox6" value='Piso 2 gas inflamable.svg' onchange="onClick(this)">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Gas natural o licuado.svg" alt=""></label>
+                </div>
+            </div>
+        </div> <!--Row-->
+    </div> <!--Container-->
+<!--COMIENZA FUNCION-->
+    <script>
+        function onUnClick(){
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            overlaySvg.style.display = 'none';
+            overlaySvg.src = "";
+            floorPlan.src = "Planos/Piso 2 Maitenes.svg";
+        }
+
+
+        function onClick(checkbox){
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            if(checkbox.checked){
+                overlaySvg.style.display = 'block';
+                overlaySvg.src = "LosMaitenes/Piso 2/" + checkbox.value;
+            }
+            else{
+                onUnClick();
+            }
+        } 
+               
+    </script>
+<!--TERMINA FUNCION-->
+</body>
+</html>

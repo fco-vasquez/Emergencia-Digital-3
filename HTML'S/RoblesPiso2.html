@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergencia Digital</title>
+    <!--Bootstrap-->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-4 back">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="col-8 back">
+                <h1 class="text-end">Emergencia Digital</h1>
+            </div>
+            
+            <nav class="navbar bg-body-tertiary">
+                <form class="container-fluid justify-content-center ">
+                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='index.html'"><img src="Planos/Casita.svg" alt="home"></button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='robles.html'" >Robles</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='RoblesPiso-1.html'">Piso -1</button>
+                  <button class="btn btn-outline-success me-4"  type="button" onclick="window.location.href='RoblesPiso1.html'" >Piso 1</button>
+                  <button class="btn btn-outline-success me-4 active btn-succes" type="button" onclick="window.location.href='RoblesPiso2.html'">Piso 2</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='RoblesPiso3.html'" >Piso 3</button>
+                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='RoblesPiso4.html'" >Piso 4</button>
+                </form>
+            </nav>
+            
+            <div class="svg-container">
+                <!-- SVG PRINCILAP MAPA PRINCIPAL-->
+                <img class="img-fluid" src="LosRobles/Piso 2/Piso 2.svg" alt="" style="margin: auto; z-index: 1;">
+                <!--OVERLAY-->
+                <img id="overlaySvg" class="overlay-svg" src="" alt="">
+            </div>
+            <div class="col" style="background-color: aqua;">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('Piso 2 Todo.svg')">
+                    <label class="form-check-label" for="inlineCheckbox1">Todos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value="option2" onchange="onClick('Piso 2 RedHumeda.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Red humeda.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value="option3" onchange="onClick('Piso 2 Electrica.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Electrico.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value="option4" onchange="onClick('Piso 2 PQS.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5" onchange="onClick('Piso 2 CO2.svg')">
+                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor CO2.svg" alt=""></label>
+                </div>  
+            </div>
+        </div> <!--Row-->
+    </div> <!--Container-->
+    
+<!--COMIENZA FUNCION-->
+    <script>
+        function onUnClick(){
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            overlaySvg.style.display = 'none';
+            overlaySvg.src = "";
+            floorPlan.src = "LosRobles/Piso 2/Piso 2.svg";
+        }
+
+
+        function onClick(svgFileName,datounic) {
+            let floorPlan = document.getElementById("floorPlan");
+            let overlaySvg = document.getElementById("overlaySvg");
+
+            
+            if (svgFileName === 'Piso 2 Todo.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosRobles/Piso 2/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 2 RedHumeda.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosRobles/Piso 2/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 2 Electrica.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosRobles/Piso 2/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 2 PQS.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosRobles/Piso 2/" + svgFileName;
+                }
+            }
+
+            if (svgFileName === 'Piso 2 CO2.svg') {
+                if (overlaySvg.style.display === 'block') {
+                    onUnClick();
+                } else {
+                    overlaySvg.style.display = 'block';
+                    overlaySvg.src = "LosRobles/Piso 2/" + svgFileName;
+                }
+            }
+        }
+               
+    </script>
+<!--TERMINA FUNCION-->
+</body>
+</html>
