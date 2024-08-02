@@ -79,7 +79,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #102b42;
     padding: 5px;
 }
