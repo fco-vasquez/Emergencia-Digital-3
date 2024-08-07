@@ -3,69 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergencia Digital</title>
-    <!--Bootstrap-->
+    <title>Emergencia Digita | Los Boldos</title>
+    <script src="https://kit.fontawesome.com/bd9ee403ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="container text-center">
-        <div class="row">
-            
-            <div class="col-4 back">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="col-8 back">
-                <h1 class="text-end">Emergencia Digital</h1>
-            </div>
-            
-            <nav class="navbar bg-body-tertiary">
-                <form class="container-fluid justify-content-center ">
-                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='index.html'"><img src="Planos/Casita.svg" alt="home"></button>
-                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='queules.html'" >Queules</button>
-                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='QueulesPiso-2.html'">Piso -2</button>
-                    <button class="btn btn-outline-success me-4"  type="button" onclick="window.location.href='QueulesPiso-1.html'" >Piso -1</button>
-                    <button class="btn btn-outline-success me-4 active btn-succes" type="button" onclick="window.location.href='QueulesPiso1.html'">Piso 1</button>
-                </form>
-            </nav>
-            
-            <div class="svg-container">
-                <!-- SVG PRINCILAP MAPA PRINCIPAL-->
-                <img class="img-fluid" src="LosQueules/Piso 1/Piso 1.svg" alt="" style="margin: auto; z-index: 1;">
-                <!--OVERLAY-->
-                <img id="overlaySvg" class="overlay-svg" src="" alt="">
-            </div>
-            <div class="col" style="background-color: aqua;">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value="option1" onchange="onClick('Piso 1 Todo.svg')">
-                    <label class="form-check-label" for="inlineCheckbox1">Todos</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value="option2" onchange="onClick('Piso 1 RedHumeda.svg')">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Red humeda.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value="option3" onchange="onClick('Piso 1 TipoK.svg')">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/extinm.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value="option4" onchange="onClick('Piso 1 PQS.svg')">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5" onchange="onClick('Piso 1 CO2.svg')">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor CO2.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value="option5" onchange="onClick('Piso 1 Inflamable.svg')">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Gas natural o licuado.svg" alt=""></label>
-                </div>  
-            </div>
-        </div> <!--Row-->
-    </div> <!--Container-->
+    <div class="head">
+        <img src="/SVG/logo.png" alt="">
+        <h1>Emergencia Digital - Concepcion</h1>
+    </div>
+
+    <div class="na">
+        <nav class="navbar">
+            <ul class="items">
+                <li class="navitems">
+                    <a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./queules.html">Los Queules</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./QueulesPiso-2.html">Piso -2</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./QueulesPiso-1.html">Piso -1</a>
+                </li>
+                <li class="navitems">
+                    <a class='link activate' href="./QueulesPiso1.html">Piso 1</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     
-<!--COMIENZA FUNCION-->
+    <div class="container">
+        <img id="overlaySvg" class="overlay-svg" src="" alt="">
+        <img id='floorPlan' src="/LosRobles/Piso 4/Piso 4.svg" alt="" class="centered-image">
+    </div>
+    
+
+    <div class="checkbox-container">
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox1" value="Piso 4 Todo.svg" onchange="onClick(this)">
+            <a>Todos</a>
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox2" value="Piso 4 RedHumeda.svg" onchange="onClick(this)">
+            <img src="/SVG/Red humeda.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox3" value="Piso 4 Electrico.svg" onchange="onClick(this)">
+            <img src="/SVG/Electrico.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox4" value="Piso 4 PQS.svg" onchange="onClick(this)">
+            <img src="/SVG/Extintor1.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox4" value="Piso 4 CO2.svg" onchange="onClick(this)">
+            <img src="/SVG/Extintor CO2.svg" alt="a">
+        </label>
+    </div>
+
+    <footer>
+        Design and Developed by @Francisco Vasquez & Benjamin Cocio
+    </footer>
+
     <script>
         function onUnClick(){
             let floorPlan = document.getElementById("floorPlan");
@@ -73,71 +76,22 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "LosQueules/Piso 1/Piso 1.svg";
+            floorPlan.src = "/LosRobles/Piso 4/Piso 4.svg";
         }
 
-
-        function onClick(svgFileName,datounic) {
-            let floorPlan = document.getElementById("floorPlan");
+        function onClick(checkbox){
             let overlaySvg = document.getElementById("overlaySvg");
 
-            
-            if (svgFileName === 'Piso 1 Todo.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
+            if(checkbox.checked){
+                overlaySvg.style.display = 'block';
+                overlaySvg.src = "/LosRobles/Piso 4/" + checkbox.value;
             }
-
-            if (svgFileName === 'Piso 1 RedHumeda.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
-            }
-
-            if (svgFileName === 'Piso 1 TipoK.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
-            }
-
-            if (svgFileName === 'Piso 1 PQS.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
-            }
-
-            if (svgFileName === 'Piso 1 Inflamable.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
-            }
-
-            if (svgFileName === 'Piso 1 CO2.svg') {
-                if (overlaySvg.style.display === 'block') {
-                    onUnClick();
-                } else {
-                    overlaySvg.style.display = 'block';
-                    overlaySvg.src = "LosQueules/Piso 1/" + svgFileName;
-                }
+            else{
+                onUnClick();
             }
         }
                
     </script>
-<!--TERMINA FUNCION-->
+
 </body>
 </html>

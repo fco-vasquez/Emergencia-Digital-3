@@ -3,68 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergencia Digital</title>
-    <!--Bootstrap-->
+    <title>Emergencia Digita | Los Boldos</title>
+    <script src="https://kit.fontawesome.com/bd9ee403ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/style.css">
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="container text-center">
-        <div class="row">
-            
-            <div class="col-4 back">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div class="col-8 back">
-                <h1 class="text-end">Emergencia Digital</h1>
-            </div>
-            
-            <nav class="navbar bg-body-tertiary">
-                <form class="container-fluid justify-content-center ">
-                    <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='index.html'"><img src="Planos/Casita.svg" alt="home"></button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='canelos.html'" >Canelos</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CanelosPiso-1.html'">Piso -1</button>
-                  <button class="btn btn-outline-success me-4 active btn-succes"  type="button" onclick="window.location.href='CanelosPiso1.html'" >Piso 1</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CanelosPiso2.html'">Piso 2</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CanelosPiso3.html'" >Piso 3</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CanelosPiso4.html'" >Piso 4</button>
-                  <button class="btn btn-outline-success me-4" type="button" onclick="window.location.href='CanelosPiso5.html'" >Piso 5</button>
-                </form>
-            </nav>
-            
-            <div class="svg-container">
-                <!-- SVG PRINCILAP MAPA PRINCIPAL-->
-                <img class="img-fluid" src="LosCanelos/Piso 1/Piso 1.svg" alt="" style="margin: auto; z-index: 1;">
-                <!--OVERLAY-->
-                <img id="overlaySvg" class="overlay-svg" src="" alt="">
-            </div>
-            <div class="col" style="background-color: aqua;">
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox1" value='Piso 1 Todos.svg' onchange="onClick(this)">
-                    <label class="form-check-label" for="inlineCheckbox1">Todos</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox2" value='Piso 1 RedHumeda.svg' onchange="onClick(this)">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Red humeda.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox3" value='Piso 1 Electrica.svg' onchange="onClick(this)">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Electrico.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox4" value='Piso 1 PQS.svg' onchange="onClick(this)">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/Extintor1.svg" alt=""></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input check" type="checkbox" id="inlineCheckbox5" value='Piso 1 Grifo.svg' onchange="onClick(this)">
-                    <label class="form-check-label" for="inlineCheckbox2"><img class="ex1" src="SVG/llave.svg" alt=""></label>
-                </div>
-            </div>
-        </div> <!--Row-->
-    </div> <!--Container-->
+    <div class="head">
+        <img src="/SVG/logo.png" alt="">
+        <h1>Emergencia Digital - Concepcion</h1>
+    </div>
+
+    <div class="na">
+        <nav class="navbar">
+            <ul class="items">
+                <li class="navitems">
+                    <a href="/index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./canelos.html">Los Canelos</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CanelosPiso-1.html">Piso -1</a>
+                </li>
+                <li class="navitems">
+                    <a class='link activate' href="./CanelosPiso1.html">Piso 1</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CanelosPiso2.html">Piso 2</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CanelosPiso3.html">Piso 3</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CanelosPiso4.html">Piso 4</a>
+                </li>
+                <li class="navitems">
+                    <a class='link' href="./CanelosPiso5.html">Piso 5</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     
-<!--COMIENZA FUNCION-->
+    <div class="container">
+        <img id="overlaySvg" class="overlay-svg" src="" alt="">
+        <img id='floorPlan' src="/LosCanelos/Piso 1/Piso 1.svg" alt="" class="centered-image">
+    </div>
+    
+
+    <div class="checkbox-container">
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox1" value="Piso 1 Todos.svg" onchange="onClick(this)">
+            <a>Todos</a>
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox2" value="Piso 1 RedHumeda.svg" onchange="onClick(this)">
+            <img src="/SVG/Red humeda.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox3" value="Piso 1 Electrica.svg" onchange="onClick(this)">
+            <img src="/SVG/Electrico.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox4" value="Piso 1 PQS.svg" onchange="onClick(this)">
+            <img src="/SVG/Extintor1.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox5" value="Piso 1 Grifo.svg" onchange="onClick(this)">
+            <img src="/SVG/llave.svg" alt="a">
+        </label>
+    </div>
+
+    <footer>
+        Design and Developed by @Francisco Vasquez & Benjamin Cocio
+    </footer>
+
     <script>
         function onUnClick(){
             let floorPlan = document.getElementById("floorPlan");
@@ -72,23 +85,22 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "LosCanelos/Piso 1/Piso 1.svg";
+            floorPlan.src = "/LosCanelos/Piso 1/Piso 1.svg";
         }
-
 
         function onClick(checkbox){
             let overlaySvg = document.getElementById("overlaySvg");
 
             if(checkbox.checked){
                 overlaySvg.style.display = 'block';
-                overlaySvg.src = "LosCanelos/Piso 1/" + checkbox.value;
+                overlaySvg.src = "/LosCanelos/Piso 1/" + checkbox.value;
             }
             else{
                 onUnClick();
             }
-        } 
+        }
                
     </script>
-<!--TERMINA FUNCION-->
+
 </body>
 </html>
