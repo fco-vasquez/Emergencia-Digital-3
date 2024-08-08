@@ -41,7 +41,7 @@ body{
     display: list-item;
 }
 
-a{
+.navitems a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -53,7 +53,7 @@ a{
     transition: background-color 0.2s ease;
 }
 
-a:hover{
+.navitems a:hover{
     background-color: #cfb47c;
 }
 
@@ -97,4 +97,12 @@ footer{
     left: 0;
     display: none;
     z-index: 2;
+}
+
+.checkbox-item a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
 }

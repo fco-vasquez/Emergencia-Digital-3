@@ -18,7 +18,7 @@
         <nav class="navbar">
             <ul class="items">
                 <li class="navitems">
-                    <a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="/index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
                 </li>
                 <li class="navitems">
                     <a class='link' href="./capilla.html">Capilla</a>
@@ -32,32 +32,19 @@
     
     <div class="container">
         <img id="overlaySvg" class="overlay-svg" src="" alt="">
-        <img id='floorPlan' src="/LosRobles/Piso 3/Piso 3.svg" alt="" class="centered-image">
+        <img id='floorPlan' src="/Capilla/capilla piso 1 2.0.svg" alt="" class="centered-image">
     </div>
     
 
     <div class="checkbox-container">
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox1" value="Piso 3 Todo.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox1" value="capilla piso 1 PQS.svg" onchange="onClick(this)">
             <a>Todos</a>
         </label>
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox2" value="Piso 3 RedHumeda.svg" onchange="onClick(this)">
-            <img src="/SVG/Red humeda.svg" alt="a">
-        </label>
-        <label class="checkbox-item">
-            <input type="checkbox" name="checkbox3" value="Piso 3 Electrica.svg" onchange="onClick(this)">
-            <img src="/SVG/Electrico.svg" alt="a">
-        </label>
-        <label class="checkbox-item">
-            <input type="checkbox" name="checkbox4" value="Piso 3 PQS.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox4" value="capilla piso 1 PQS.svg" onchange="onClick(this)">
             <img src="/SVG/Extintor1.svg" alt="a">
         </label>
-        <label class="checkbox-item">
-            <input type="checkbox" name="checkbox4" value="Piso 3 CO2.svg" onchange="onClick(this)">
-            <img src="/SVG/Extintor CO2.svg" alt="a">
-        </label>
-    </div>
 
     <footer>
         Design and Developed by @Francisco Vasquez & Benjamin Cocio
@@ -70,7 +57,7 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "/LosRobles/Piso 3/Piso 3.svg";
+            floorPlan.src = "/Capilla/capilla piso 1 2.0.svg";
         }
 
         function onClick(checkbox){
@@ -78,7 +65,7 @@
 
             if(checkbox.checked){
                 overlaySvg.style.display = 'block';
-                overlaySvg.src = "/LosRobles/Piso 3/" + checkbox.value;
+                overlaySvg.src = "/Capilla/" + checkbox.value;
             }
             else{
                 onUnClick();

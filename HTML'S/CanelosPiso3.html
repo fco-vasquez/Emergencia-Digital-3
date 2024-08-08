@@ -18,7 +18,7 @@
         <nav class="navbar">
             <ul class="items">
                 <li class="navitems">
-                    <a href="./index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
+                    <a href="/index.html"><i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i></a>
                 </li>
                 <li class="navitems">
                     <a class='link' href="./canelos.html">Los Canelos</a>
@@ -47,10 +47,9 @@
     
     <div class="container">
         <img id="overlaySvg" class="overlay-svg" src="" alt="">
-        <img id='floorPlan' src="/LosRobles/Piso 3/Piso 3.svg" alt="" class="centered-image">
+        <img id='floorPlan' src="/LosCanelos/Piso 3/Piso 3.svg" alt="" class="centered-image">
     </div>
     
-
     <div class="checkbox-container">
         <label class="checkbox-item">
             <input type="checkbox" name="checkbox1" value="Piso 3 Todo.svg" onchange="onClick(this)">
@@ -72,6 +71,14 @@
             <input type="checkbox" name="checkbox4" value="Piso 3 CO2.svg" onchange="onClick(this)">
             <img src="/SVG/Extintor CO2.svg" alt="a">
         </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox5" value="Piso 3 Grifo.svg" onchange="onClick(this)">
+            <img src="/SVG/llave.svg" alt="a">
+        </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox6" value="Piso 3 Enchufe.svg" onchange="onClick(this)">
+            <img src="/SVG/enchufe.svg" alt="a">
+        </label>
     </div>
 
     <footer>
@@ -85,7 +92,7 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "/LosRobles/Piso 3/Piso 3.svg";
+            floorPlan.src = "/LosCanelos/Piso 3/Piso 3.svg";
         }
 
         function onClick(checkbox){
@@ -93,7 +100,7 @@
 
             if(checkbox.checked){
                 overlaySvg.style.display = 'block';
-                overlaySvg.src = "/LosRobles/Piso 3/" + checkbox.value;
+                overlaySvg.src = "/LosCanelos/Piso 3/" + checkbox.value;
             }
             else{
                 onUnClick();
