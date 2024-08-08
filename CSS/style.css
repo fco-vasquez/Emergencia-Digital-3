@@ -106,3 +106,127 @@ footer{
     text-decoration: none;
     color: white;
 }
+
+table {
+    font-family: 'Open Sans', sans-serif;;
+    color: #333;
+  }
+  
+  th,
+  td {
+    font-size: 0px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  th,
+td {
+  border: 2px solid #ddd;
+  padding: 20px;
+}
+th {
+    background-color: #f2f2f2;
+  }
+table {
+    width: 80%;
+    margin: 20px auto;
+  }
+  /* Using collapse */
+.collapsed-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;;
+    color: #333;
+      
+  }
+  
+  /* Using separate */
+.separate-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate;
+    font-family: 'Open Sans', sans-serif;;
+    color: #333;
+    border-spacing: 5px; /* Space between cell borders */
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  table {
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  th,
+  td {
+    border: 2px solid #000000;
+    padding: 21px;
+    font-size: 19px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  /* Hover effect */
+tr:hover {
+    background-color: rgb(206, 206, 206); /* Gray on hover */
+  }
+  .action-button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #45a049;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+  }
+  
+  .action-button:hover {
+    background-color: green;
+  }
+
+
+  /*BUSCADOR */
+  #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+  /*--AÑADIDO-->*/

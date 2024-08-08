@@ -49,124 +49,125 @@
     </div>
     
     <div class="container">
-        <table class="table"> <!--INICIO DE LA TABLA-->
+        <input type="text" id="myInput" onkeyup="myFunction()" style="background-color: rgba(255, 255, 255, 0.855);" placeholder="Search for names.."><!--AÑADIDO-->
+        <table id="myTable" class="table" > <!--INICIO DE LA TABLA--> <!--AÑADIDO id debe de ser ese mismo -->
             <thead>
-              <tr>
-                <th scope="col">Clase o division</th>
-                <th scope="col"><img class="susinfla" src="SVG/EXPLOSIVO.svg" alt="Sustancia Explosivas"></th>
-              </tr>
+                    <tr>
+                      <th style="width:100%;">Sustancias</th> <!--AÑADIDO-->
+                      <th style="width:10%;">Marca</th><!--AÑADIDO-->
+                      <th style="width:10%;">Hoja de seguridad</th><!--AÑADIDO-->
+                    </tr>
             </thead>
 
             <tbody>
-              <tr>
-                <th scope="row">Producto</th>
-                <td>Presentacion</td>
-                <td>Stock 09-01-2019</td>
-                <td>I.a</td>
-              </tr>
               <!--Sustancias INICIO-->
               <tr>
-                  <td><a href="Bodega Centro Salud/Alcohol desnaturalizado 95.pdf">Alcohol Desnaturalizado 95° (100vol)</a></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><a href="/Bodega Centro Salud/Alcohol desnaturalizado 95.pdf">Alcohol Desnaturalizado 95° (100vol)</a></td>
+                  <td>Merck</td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/Alcohol desnaturalizado 95.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/alphacaine 100.pdf">Alphacaine</a></td>
+                  <td><a href="/Bodega Centro Salud/alphacaine 100.pdf">Alphacaine</a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/alphacaine 100.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/Amalcap Plus.pdf">Amalcap Plus</a></td>
+                  <td><a href="/Bodega Centro Salud/Amalcap Plus.pdf">Amalcap Plus</a></td>
                   <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/Amalcap Plus.pdf">Revisar</button></td>
+                  </tr>
+
+              <tr>
+                  <td><a href="/Bodega Centro Salud/cartridge o toners usados.pdf">Cartridge o Torners Usados</a></td>
                   <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/cartridge o toners usados.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/cartridge o toners usados.pdf">Cartridge o Torners Usados</a></td>
+                  <td><a href="/Bodega Centro Salud/DC SUPER DRAIN 6X2KG.pdf">DC Super Drain 6X 2KG</a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/DC SUPER DRAIN 6X2KG.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/DC SUPER DRAIN 6X2KG.pdf">DC Super Drain 6X 2KG</a></td>
+                  <td> <a href="/Bodega Centro Salud/Etanol 95% grado usp.pdf">Etanol 95% Grado USP </a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/Etanol 95% grado usp.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/Etanol 95% grado usp.pdf">Etanol 95% Grado USP</a></td>
+                  <td> <a href="/Bodega Centro Salud/Eter etilico.pdf">Eter Etilico </a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/Eter etilico.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/Eter etilico.pdf">Eter Etilico</a></td>
+                  <td> <a href="/Bodega Centro Salud/metacrilato de metilo.pdf">Metacrilato de Metilo</a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/metacrilato de metilo.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/metacrilato de metilo.pdf">Metacrilato de Metilo</a></td>
+                  <td> <a href="/Bodega Centro Salud/Plomo msds.pdf">Plomo MSDS </a> </td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/Plomo msds.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/Plomo msds.pdf">Plomo MSDS</a></td>
+                  <td> <a href="/Bodega Centro Salud/sd citrasol.pdf"> SD Citrasol </a> </td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/sd citrasol.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/sd citrasol.pdf">SD Citrasol</a></td>
+                  <td> <a href="/Bodega Centro Salud/solvente quemar.pdf"> Solvente Quemar </a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/solvente quemar.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/solvente quemar.pdf">Solvente Quemar</a></td>
+                  <td> <a href="/Bodega Centro Salud/sulfito potasico.pdf">Sulfito Potasico</a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/sulfito potasico.pdf">Revisar</button></td>
               </tr>
 
               <tr>
-                  <td><a href="Bodega Centro Salud/sulfito potasico.pdf">Sulfito Potasico</a></td>
+                  <td><a href="/Bodega Centro Salud/tubos fluorescentes usados.pdf">Tubos Fluorescentes Usados</a></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
-              </tr>
-
-              <tr>
-                  <td><a href="Bodega Centro Salud/tubos fluorescentes usados.pdf">Tubos Fluorescentes Usados</a></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td><button class="action-button" a href="/Bodega Centro Salud/tubos fluorescentes usados.pdf">Revisar</button></td>
               </tr>
               <!--Sustancias FIN-->
 
             </tbody>
         </table> <!--FIN DE LA TABLA-->
     </div>
-    
-
-    
 
     <footer>
         Design and Developed by @Francisco Vasquez & Benjamin Cocio
     </footer>
+
+    <script>
+        function myFunction() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+    </script>
 
 </body>
 </html>
