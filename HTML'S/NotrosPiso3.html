@@ -50,7 +50,7 @@
     
     <div class="container">
         <img id="overlaySvg" class="overlay-svg" src="" alt="">
-        <img id='floorPlan' src="/LosRobles/Piso 3/Piso 3.svg" alt="" class="centered-image">
+        <img id='floorPlan' src="/LosNotros/Piso 3/Piso 3.svg" alt="" class="centered-image">
     </div>
     
 
@@ -75,6 +75,10 @@
             <input type="checkbox" name="checkbox4" value="Piso 3 CO2.svg" onchange="onClick(this)">
             <img src="/SVG/Extintor CO2.svg" alt="a">
         </label>
+        <label class="checkbox-item">
+            <input type="checkbox" name="checkbox4" value="Piso 3 Seca.svg" onchange="onClick(this)">
+            <img src="/SVG/llave.svg" alt="a">
+        </label>
     </div>
 
     <footer>
@@ -88,7 +92,7 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "/LosRobles/Piso 3/Piso 3.svg";
+            floorPlan.src = "/LosNotros/Piso 3/Piso 3.svg";
         }
 
         function onClick(checkbox){
@@ -96,7 +100,7 @@
 
             if(checkbox.checked){
                 overlaySvg.style.display = 'block';
-                overlaySvg.src = "/LosRobles/Piso 3/" + checkbox.value;
+                overlaySvg.src = "/LosNotros/Piso 3/" + checkbox.value;
             }
             else{
                 onUnClick();
