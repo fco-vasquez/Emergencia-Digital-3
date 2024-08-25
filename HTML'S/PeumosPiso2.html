@@ -41,29 +41,29 @@
     
     <div class="container">
         <img id="overlaySvg" class="overlay-svg" src="" alt="">
-        <img id='floorPlan' src="/LosRobles/Piso 4/Piso 4.svg" alt="" class="centered-image">
+        <img id='floorPlan' src="/LosPeumos/Piso 2/piso 2.svg" alt="" class="centered-image">
     </div>
     
 
     <div class="checkbox-container">
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox1" value="Piso 4 Todo.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox1" value="piso 2 Todo.svg" onchange="onClick(this)">
             <a>Todos</a>
         </label>
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox2" value="Piso 4 RedHumeda.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox2" value="piso 2 RedHumeda.svg" onchange="onClick(this)">
             <img src="/SVG/Red humeda.svg" alt="a">
         </label>
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox3" value="Piso 4 Electrico.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox3" value="piso 2 Electrico.svg" onchange="onClick(this)">
             <img src="/SVG/Electrico.svg" alt="a">
         </label>
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox4" value="Piso 4 PQS.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox4" value="piso 2 PQS.svg" onchange="onClick(this)">
             <img src="/SVG/Extintor1.svg" alt="a">
         </label>
         <label class="checkbox-item">
-            <input type="checkbox" name="checkbox4" value="Piso 4 CO2.svg" onchange="onClick(this)">
+            <input type="checkbox" name="checkbox4" value="piso 2 CO2.svg" onchange="onClick(this)">
             <img src="/SVG/Extintor CO2.svg" alt="a">
         </label>
     </div>
@@ -79,7 +79,7 @@
 
             overlaySvg.style.display = 'none';
             overlaySvg.src = "";
-            floorPlan.src = "/LosRobles/Piso 4/Piso 4.svg";
+            floorPlan.src = "/LosPeumos/Piso 2/piso 2.svg";
         }
 
         function onClick(checkbox){
@@ -87,7 +87,7 @@
 
             if(checkbox.checked){
                 overlaySvg.style.display = 'block';
-                overlaySvg.src = "/LosRobles/Piso 4/" + checkbox.value;
+                overlaySvg.src = "/LosPeumos/Piso 2/" + checkbox.value;
             }
             else{
                 onUnClick();
